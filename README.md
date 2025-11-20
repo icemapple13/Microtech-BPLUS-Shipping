@@ -1,5 +1,7 @@
 # Microtech-BPLUS-Shipping
 Powershell Script zum erstellen von Shipping Labels ohne "Versand und Logistik" Modul in Microtech ERP 
+
+Reddit Post zum Thema: https://www.reddit.com/r/MicrotechERP/comments/1p24bqn/dpd_ups_labels_ohne_versand_und_logistig_modul/
 <img width="355" height="307" alt="355-307-max" src="https://github.com/user-attachments/assets/4cc1aee1-1403-40f8-9526-6e98d46e1bb2" />
 <img width="395" height="1600" alt="labels" src="https://github.com/user-attachments/assets/0e614248-f455-48f3-9daf-1e02f335e754" />
 
