@@ -1,12 +1,13 @@
 # Microtech-BPLUS-Shipping
 Powershell Script zum erstellen von Shipping Labels ohne "Versand und Logistik" Modul in Microtech ERP 
-![Schnellwahl Versandlabel Erstellen](.attachments.53426/image.png)
+<img width="355" height="307" alt="355-307-max" src="https://github.com/user-attachments/assets/4cc1aee1-1403-40f8-9526-6e98d46e1bb2" />
+<img width="395" height="1600" alt="labels" src="https://github.com/user-attachments/assets/0e614248-f455-48f3-9daf-1e02f335e754" />
 
 ## Feld-Validierung – Expo
 
-![1024-729.png](.attachments.53426/1024-729.png)
+<img width="1024" height="729" alt="1024-729-max" src="https://github.com/user-attachments/assets/a5146d82-c2c0-41c7-8fda-2b77c332f0ae" />
 
-## rt prüfen
+## Werte prüfen
 
 Über eine verzweigte Formel definieren  
 Diese Formel wird genutzt, um zu prüfen, ob alle notwendigen Felder vorhanden sind:
@@ -39,17 +40,18 @@ $cond(
 
 ### Beispiel-Fehleranzeige
 
-![image (6).png](.attachments.53426/image%20%286%29.png)
+<img width="845" height="574" alt="845-574-max" src="https://github.com/user-attachments/assets/6437b591-8418-4d3e-9f7e-c59a6118089d" />
 
 Export Trigger
 
-![Export übersicht](.attachments.53426/image%20%284%29.png)
+<img width="841" height="559" alt="841-559-max" src="https://github.com/user-attachments/assets/f66791a7-2afb-4266-a1a7-deaadef6896a" />
+
 
 ## CSV-Layout
 
 ### Vorspann (Mapping der Felder):
 
-![Vorspann](.attachments.53426/561-597-max.png)
+<img width="561" height="597" alt="561-597-max" src="https://github.com/user-attachments/assets/16aa95ee-f0d4-4e40-8d90-6c4ce21da75a" />
 
 ```
 id;anrede;name;nameaddition;country;plz;Ort;strasse;telefonnummer;emailaddress;upskundennummer;versanddienstleister;service;gewicht;anzahlpakete;belegnummer;isprivateaddresse;
