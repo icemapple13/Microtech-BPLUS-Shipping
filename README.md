@@ -91,7 +91,7 @@ Shipping-Schnittstelle/
 Der Share wird über UNC bereitgestellt:
 
 ```
-\\bwerp01.baw.local\Shipping-Schnittstelle
+\\servername.domain.local\Shipping-Schnittstelle
 ```
 
 Alle berechtigten Benutzer müssen Schreibrechte haben.  
