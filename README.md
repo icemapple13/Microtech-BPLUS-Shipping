@@ -134,22 +134,3 @@ $SenderPostalCode = "83000"
 $SenderCity       = "Rosenheim"   
 $SenderCountry    = "DE"   
 $SenderPhone      = "+4980123456"
-
-# ---- UPS AUTH CONFIG ----
-
-$UpsClientID     = "XXXxxxxXXXXX"   
-$UpsClientSecret = "ccccXxxxxxxxXXXX"   
-$UpsShipperNumber = "123456"
-
-$UpsTokenUrl = "https://onlinetools.ups.com/security/v1/oauth/token"
-$UpsShipUrl  = "https://onlinetools.ups.com/api/shipments/v1/ship"
-
-# ---- DPD AUTH CONFIG ----
-
-$DpdDelisId   = "sandboxdpd"
-$DpdPassword  = "xMmshh1"
-$DpdDepot     = "0184"
-
-$DpdLoginWsdl  = "https://public-ws-stage.dpd.com/services/LoginService/V2_0/?wsdl"
-$DpdShipmentUrl = "https://public-ws-stage.dpd.com/services/ShipmentService/V4_4"
-$DpdSoapAction  = "http://dpd.com/common/service/ShipmentService/4.4/storeOrders"
