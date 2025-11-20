@@ -36,7 +36,7 @@ $UpsShipUrl  = "https://onlinetools.ups.com/api/shipments/v1/ship"
 
 # ---- DPD AUTH CONFIG ----
 $DpdDelisId   = "sandboxdpd"
-$DpdPassword  = "xMmshh1"
+$DpdPassword  = "-putsanboxpassword-"
 $DpdDepot     = "0184"
 
 $DpdLoginWsdl  = "https://public-ws-stage.dpd.com/services/LoginService/V2_0/?wsdl"
@@ -569,3 +569,4 @@ else {
 }
 
 Write-Host "================ SHIPPING SCRIPT END =================" -ForegroundColor Cyan
+
