@@ -31,17 +31,17 @@ $UpsClientID     = "xxxxxxxxXXXXXsadfadasdasd3342"
 $UpsClientSecret = "xxxxxXXXxxxXXXxXXxxxxXXX213"
 $UpsShipperNumber = "123465"
 
-$UpsTokenUrl = "https://onlinetools.ups.com/security/v1/oauth/token"
-$UpsShipUrl  = "https://onlinetools.ups.com/api/shipments/v1/ship"
+$UpsTokenUrl = "https://PUTUPSURLHERE/security/v1/oauth/token"
+$UpsShipUrl  = "https://PUTUPSURLHERE/api/shipments/v1/ship"
 
 # ---- DPD AUTH CONFIG ----
 $DpdDelisId   = "sandboxdpd"
 $DpdPassword  = "-putsanboxpassword-"
 $DpdDepot     = "0184"
 
-$DpdLoginWsdl  = "https://public-ws-stage.dpd.com/services/LoginService/V2_0/?wsdl"
-$DpdShipmentUrl = "https://public-ws-stage.dpd.com/services/ShipmentService/V4_4"
-$DpdSoapAction  = "http://dpd.com/common/service/ShipmentService/4.4/storeOrders"
+$DpdLoginWsdl  = "https://PUTDPDURLHERE/services/LoginService/V2_0/?wsdl"
+$DpdShipmentUrl = "https://PUTDPDURLHERE/services/ShipmentService/V4_4"
+$DpdSoapAction  = "http://PUTDPDURLHERE/common/service/ShipmentService/4.4/storeOrders"
 
 ###############################################################################
 # HELPER FUNCTIONS
@@ -569,4 +569,5 @@ else {
 }
 
 Write-Host "================ SHIPPING SCRIPT END =================" -ForegroundColor Cyan
+
 
